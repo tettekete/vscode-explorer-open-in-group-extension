@@ -9,13 +9,145 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand: explorer-open-in-group.open-in-01",
+    "onCommand: explorer-open-in-group.open-in-02",
+    "onCommand: explorer-open-in-group.open-in-03",
+    "onCommand: explorer-open-in-group.open-in-04",
+    "onCommand: explorer-open-in-group.open-in-05",
+    "onCommand: explorer-open-in-group.open-in-06",
+    "onCommand: explorer-open-in-group.open-in-07",
+    "onCommand: explorer-open-in-group.open-in-08",
+    "onCommand: explorer-open-in-group.open-in-09"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "explorer-open-in-group.helloWorld",
-        "title": "Hello World"
+        "command": "explorer-open-in-group.open-in-01",
+        "title": "Group 1"
+      },
+      {
+        "command": "explorer-open-in-group.open-in-02",
+        "title": "Group 2"
+      },
+      {
+        "command": "explorer-open-in-group.open-in-03",
+        "title": "Group 3"
+      },
+      {
+        "command": "explorer-open-in-group.open-in-04",
+        "title": "Group 4"
+      },
+      {
+        "command": "explorer-open-in-group.open-in-05",
+        "title": "Group 5"
+      },
+      {
+        "command": "explorer-open-in-group.open-in-06",
+        "title": "Group 6"
+      },
+      {
+        "command": "explorer-open-in-group.open-in-07",
+        "title": "Group 7"
+      },
+      {
+        "command": "explorer-open-in-group.open-in-08",
+        "title": "Group 8"
+      },
+      {
+        "command": "explorer-open-in-group.open-in-09",
+        "title": "Group 9"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "submenu": "explorer-open-in-group.submenu",
+          "group": "navigation"
+        }
+      ],
+      "explorer-open-in-group.submenu":[
+        {
+          "command": "explorer-open-in-group.open-in-01",
+          "when": "viewColumn_1_Opened && resourceScheme == file && !explorerResourceIsFolder"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-02",
+          "when": "viewColumn_2_Opened && resourceScheme == file && !explorerResourceIsFolder"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-03",
+          "when": "viewColumn_3_Opened && resourceScheme == file && !explorerResourceIsFolder"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-04",
+          "when": "viewColumn_4_Opened && resourceScheme == file && !explorerResourceIsFolder"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-05",
+          "when": "viewColumn_5_Opened && resourceScheme == file && !explorerResourceIsFolder"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-06",
+          "when": "viewColumn_6_Opened && resourceScheme == file && !explorerResourceIsFolder"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-07",
+          "when": "viewColumn_7_Opened && resourceScheme == file && !explorerResourceIsFolder"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-08",
+          "when": "viewColumn_8_Opened && resourceScheme == file && !explorerResourceIsFolder"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-09",
+          "when": "viewColumn_9_Opened && resourceScheme == file && !explorerResourceIsFolder"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "explorer-open-in-group.open-in-01",
+          "when": "false"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-02",
+          "when": "false"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-03",
+          "when": "false"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-04",
+          "when": "false"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-05",
+          "when": "false"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-06",
+          "when": "false"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-07",
+          "when": "false"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-08",
+          "when": "false"
+        },
+        {
+          "command": "explorer-open-in-group.open-in-09",
+          "when": "false"
+        }
+      ]
+    },
+    "submenus": [
+      {
+        "id": "explorer-open-in-group.submenu",
+        "label": "Open in Group"
       }
     ]
   },
