@@ -4,6 +4,6 @@ All notable changes to the "explorer-open-in-group" extension will be documented
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.1.0] - 2026-01-18
 
 - Initial release

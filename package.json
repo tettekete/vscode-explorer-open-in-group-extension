@@ -9,6 +9,14 @@
   "categories": [
     "Other"
   ],
+  "publisher": "tettekete",
+  "author": "tettekete",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tettekete/vscode-explorer-open-in-group-extension"
+  },
+  "homepage": "https://github.com/tettekete/vscode-explorer-open-in-group-extension",
   "activationEvents": [
     "onCommand: explorer-open-in-group.open-in-01",
     "onCommand: explorer-open-in-group.open-in-02",
