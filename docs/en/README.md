@@ -4,6 +4,8 @@
 
 Adds a context menu that lets you choose which editor group to open a file from the Explorer.
 
+<img src="https://tettekete.github.io/vscode-explorer-open-in-group-extension/images/screen-shot.png" srcset="https://tettekete.github.io/vscode-explorer-open-in-group-extension/images/screen-shot.png 2x" width="496">
+
 ## Known Behavior and Workarounds
 
 If you are annoyed that the Explorer view changes every time you switch the active editor group, search for `Explorer: Auto Reveal` (`explorer.autoReveal`) in settings and set it to `false`.

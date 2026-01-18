@@ -4,6 +4,8 @@
 
 エクスプローラーからファイルを開くとき、どのエディタグループに開くか指定するためのコンテキストメニューを追加します。
 
+<img src="https://tettekete.github.io/vscode-explorer-open-in-group-extension/images/screen-shot.png" srcset="https://tettekete.github.io/vscode-explorer-open-in-group-extension/images/screen-shot.png 2x" width="496">
+
 ## 既知の仕様と回避策
 
 もしあなたがアクティブなエディタグループを変更する度にエクスプローラの表示内容が変わることにイライラしているならば、設定から `Explorer: Auto Reveal`（`explorer.autoReveal`） を検索して `false` に設定しましょう。
