@@ -1,3 +1,5 @@
+<p align="center">English / <a href="https://tettekete.github.io/vscode-explorer-open-in-group-extension/ja/">日本語</a></p>
+
 # Features
 
 Adds a context menu that lets you choose which editor group to open a file from the Explorer.

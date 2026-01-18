@@ -1,3 +1,5 @@
+<p align="center"><a href="https://tettekete.github.io/vscode-explorer-open-in-group-extension/en/">English</a> / 日本語</p>
+
 # 機能
 
 エクスプローラーからファイルを開くとき、どのエディタグループに開くか指定するためのコンテキストメニューを追加します。
